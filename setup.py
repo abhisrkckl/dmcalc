@@ -8,4 +8,5 @@ setup(
     author_email="kkambalappat@gmail.com",
     url="http://github.com/abhisrkckl/dmcalc",
     scripts=["scripts/dmcalc.py", "scripts/run_dmcalc.py"],
+    install_requires=["numpy<2.0.0", "matplotlib", "scikit-learn"],
 )
